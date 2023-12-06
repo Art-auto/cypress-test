@@ -16,6 +16,13 @@ export default defineConfig({
   defaultCommandTimeout: 5000,   // default 4000
   requestTimeout: 10000,         // default 5000
   responseTimeout: 30000,         // default 30000
+  reporter: "mochawesome",
+  "reporterOptions": {
+    "overwrite": false,
+    "html": false,
+    "json": true,
+    reportDir: 'cypress/results'
+  },
   // watchForFileChanges: false,
   env: {
     POST: '4200',
