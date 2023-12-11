@@ -43,3 +43,8 @@ Thumbs.db
 # Cypress
 cypress/videos/
 cypress/screenshots/
+
+cypress.env.json
+cypress/merged-report/
+cypress/results/
+mochawesome-report/
