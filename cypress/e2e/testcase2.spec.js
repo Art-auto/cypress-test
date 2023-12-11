@@ -1,5 +1,5 @@
 describe('Accordion Test', () => {
-    it('повинен перевірити видимість секції "Product Details" після перемикання', () => {
+    it('повинен перевірити видимість секції Product Details після перемикання', () => {
       
       cy.visit('http://localhost:4200/');
   
@@ -9,8 +9,8 @@ describe('Accordion Test', () => {
   
       
       cy.wait(2000); 
-  
       
+  
       const productDetailsSection = 'Product Details';
   
     

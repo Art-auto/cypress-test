@@ -6,7 +6,7 @@ const colors = {
 };
 
 describe('Change Theme Test', () => {
-  it('should change the application theme and validate the header color', () => {
+  it('should change the application theme and validate  header color', () => {
   
     cy.visit('http://localhost:4200/'); 
 
