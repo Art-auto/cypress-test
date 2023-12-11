@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-import FormLayoutsPage from '../pages/FormLayouts.page.js'
+import FormLayoutsPage from '../../pages/FormLayouts.page.js'
 
 describe('Form Layouts', () => {
   const formLayoutsPage = new FormLayoutsPage()
@@ -27,7 +27,7 @@ describe('Form Layouts', () => {
     formLayoutsPage.signInButton.click()
     formLayoutsPage.navMenu.openByTitle('Auth')
   })
-  it.only('test POM', () => {
+  it.skip('test POM', () => {
     formLayoutsPage.open()
     formLayoutsPage.elements.menuItem()
   })
