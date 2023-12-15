@@ -5,8 +5,8 @@ describe('PUT /posts/:id', () => {
         method: 'PUT',
         url: `https://jsonplaceholder.typicode.com/posts/${postId}`,
         body: {
-          title: 'Нова назва вашого поста',
-          body: 'Нове тіло вашого поста',
+          title: 'Нова назва  поста',
+          body: 'Нове тіло  поста',
           userId: 1,
         },
       }).as('updatePost');

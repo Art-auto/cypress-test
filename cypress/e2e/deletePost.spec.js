@@ -1,5 +1,5 @@
 describe('DELETE /posts/:id', () => {
-    it('перевірка статус коду', () => {
+    it('перевірка стату коду', () => {
       const postId = 1; 
       cy.request({
         method: 'DELETE',

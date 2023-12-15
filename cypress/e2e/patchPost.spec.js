@@ -5,7 +5,7 @@ describe('PATCH /posts/:id', () => {
         method: 'PATCH',
         url: `https://jsonplaceholder.typicode.com/posts/${postId}`,
         body: {
-          title: 'Нова часткова назва вашого поста',
+          title: 'Нова часткова назва поста',
         },
       }).as('patchPost');
       cy.get('@patchPost').its('status').should('eq', 200);

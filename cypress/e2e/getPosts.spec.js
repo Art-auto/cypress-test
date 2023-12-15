@@ -5,7 +5,7 @@ describe('GET /posts', () => {
     });
   
   
-    it('перевірка наявності постів', () => {
+    it('перевіряэ наявность постів', () => {
     cy.request('GET', 'https://jsonplaceholder.typicode.com/posts').as('getPosts');
       cy.get('@getPosts').its('body').should('not.be.empty');
     });

@@ -4,8 +4,8 @@ describe('POST /posts', () => {
         method: 'POST',
         url: 'https://jsonplaceholder.typicode.com/posts',
         body: {
-          title: 'Назва вашого поста',
-          body: 'Тіло вашого поста',
+          title: 'Назва ',
+          body: 'Тіло ',
           userId: 1,
         },
       }).as('createPost');
