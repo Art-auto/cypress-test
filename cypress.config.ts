@@ -20,6 +20,7 @@ function queryTestDb(query, config) {
 }
 
 export default defineConfig({
+  projectId: "4p9xbf",
   reporter: 'mochawesome',
   reporterOptions: {
     reportDir: 'cypress/results',
