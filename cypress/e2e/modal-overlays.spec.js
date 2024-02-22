@@ -11,7 +11,7 @@ describe('Modal&Overlays', ()=>{
         })
     })
 
-    it.only('Enter, Submit and Assert', ()=>{
+    it('Enter, Submit and Assert', ()=>{
 
         cy.visit('/pages/modal-overlays/dialog').wait(3000)
         cy.get('.result-from-dialog > .appearance-filled').click().get('.ng-star-inserted > nb-card > nb-card-body > .size-medium')
