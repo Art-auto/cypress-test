@@ -57,12 +57,5 @@ describe('Changing color of the app', ()=>{
         
       })
     
-     /* it('cypress pause', () => {
-        cy.wrap(Object.keys(colors)).each(color => {
-          cy.get('ngx-header .select-button').click()
-          cy.contains('nb-option', `${color}`).pause().click()
-          cy.pause()
-        })
-      })*/
     })
     
