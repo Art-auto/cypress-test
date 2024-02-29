@@ -24,7 +24,7 @@ describe('Changing color of the app', ()=>{
       it('Switching Light color', () => {
         cy.wrap(Object.keys(colors))
         cy.get('ngx-header .select-button').click()
-          cy.contains('nb-option', 'Light').click().wait(3000)
+          cy.contains('nb-option', 'Light').click()
           cy.get('nb-layout-header nav').should('have.css', 'background-color', colors.Light)
 
         
